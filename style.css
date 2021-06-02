@@ -53,8 +53,12 @@ hearder div li li a{
 
 #theerd img{
  float: right; 
- margin: 110px 0% 10px 40% 
+ margin: 110px 0% 10px 40%
 }
+
+#theerd .imgp{
+ margin-left: 300px;
+} 
 
 #theerd p{
  color: #c72c41;
@@ -66,5 +70,4 @@ footer{
   height: 250px;
   margin: -150px 0% 30px 40%  
 }
-
 
