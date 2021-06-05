@@ -7,18 +7,19 @@ document.write("<img  style='color:green; height: 400px;width: 33.4%;' src='http
 
 document.write("<img  style='color:green; height: 400px;width: 33.3%;' src='https://i.pinimg.com/564x/61/08/15/610815ff632c6c8f68861ef99b111e5b.jpg'>");
 
-var userage = prompt("WHO OLD ARE YOU?");
+var userage = prompt("HOW OLD ARE YOU?");
 console.log(age);
 
 var age = 18;
 if (userage <= 18){
   alert("HI MUSIC LOVER")
 }else{
-  alert("HI MUSIC FAN")
+  alert("HELLO MUSIC FAN")
 }
 
 var favtool = prompt("WHAT IS YOUR FAVORITE MUSIC TOOL GUITAR OR PIANO?");
 console.log(tool);
+
 
 
 
