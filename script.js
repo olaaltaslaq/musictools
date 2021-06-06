@@ -1,3 +1,4 @@
+
 var musicType = prompt(" +WHAT DO YOU LIKE A CLASIC MUSIC OR ROCK MUSIC?+ ");
 if (musicType == "clasic") {
 document.write("<img  style='color:green; height: 400px;width: 33.3%;' src='https://abcmusic-production-au.s3-ap-southeast-2.amazonaws.com/s3fs-public/485%205247%20Classical%20Music%20to%20Lift%20Your%20Spirits.jpg'>");
@@ -5,8 +6,19 @@ document.write("<img  style='color:green; height: 400px;width: 33.3%;' src='http
 document.write("<img  style='color:green; height: 400px;width: 33.3%;' src='https://image.freepik.com/free-vector/rock-music-forever-poster-with-one-guitar-centre_1284-49237.jpg'>");
 }
 
+// document.write("<h3> " +userage+ " </h3>")
+// console.log(age);
+var userage = prompt("HOW OLD ARE YOU?");
 document.write("<h3> " +userage+ " </h3>")
 console.log(age);
+
+var age = 18;
+if (userage <= 18){
+  alert("HI MUSIC LOVER")
+}else{
+  alert("HELLO MUSIC FAN")
+}
+
 
 var musicHistory = prompt("WHAT DO YOU LIKE KOWN ABOUT MUISC HISTORY : yes or no ?");
 if (musicHistory == "yes" ){
@@ -24,18 +36,7 @@ document.write("<img  style='color:green; height: 400px;width: 33.4%;' src='http
 
 document.write("<img  style='color:green; height: 400px;width: 33.3%;' src='https://i.pinimg.com/564x/61/08/15/610815ff632c6c8f68861ef99b111e5b.jpg'>");
 
-var userage = prompt("HOW OLD ARE YOU?");
-document.write("<h3> " +userage+ " </h3>")
-console.log(age);
-
-var age = 18;
-if (userage <= 18){
-  alert("HI MUSIC LOVER")
-}else{
-  alert("HELLO MUSIC FAN")
-}
 
 var favtool = prompt("WHAT IS YOUR FAVORITE MUSIC TOOL GUITAR OR PIANO?");
 console.log(tool);
-
 
